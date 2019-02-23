@@ -1,0 +1,13 @@
+.container {
+  border: solid 2px black;
+  padding-left: 50px;
+  margin-right: 900px;
+  margin-left: 100px;
+  margin-top: 75px;
+  background-color: lightcyan
+}
+
+#footer {
+  color: orange; 
+  font-weight: bold
+}

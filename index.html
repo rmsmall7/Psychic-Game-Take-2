@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Psychic Game Take 2</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylsheets" href="assets/reset.css">
+</head>
+
+<body id="game">
+  <div class="container">
+
+    <div>
+      <h1>The Psychic Game</h1>
+    </div>
+
+    <div id="randomA">
+      <h3>Guess the what letter I am thinking of:</h3>
+    </div>
+
+    <!-- orginally I had the id for wins, losses, guesses left and letters guessed as "tally" but I could not get javascript to recongize them as a group so I changed each id-->
+    <div id="score">
+      <div id="wins">
+        Wins:
+      </div>
+
+      <br>
+
+      <div id="losses">
+        Losses:
+      </div>
+
+      <br>
+
+      <div id="tally">
+        Guesses Left:
+      </div>
+
+      <br>
+
+      <div id="userLetters">
+        Letters guessed so far:
+      </div>
+    </div>
+    <div id="footer">
+      <h3>Note: All letters are lowercase</h3>
+    </div>
+
+  </div>
+
+  <script src="javascript/game.js"></script>
+
+</body>
+
+</html>
